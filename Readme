@@ -1,0 +1,37 @@
+### Introduction of code file
+'''
+  augmentation.py      # Data augmentation
+  
+  defshuffle.py        # Shuffle images or image patches
+   
+  config.py            # Configuration hyperparameter
+  
+  Mcode file           # some mcode for downsample, filter, psnr&ssim compute, patch images and retina vessels enhancement
+'''
+
+### Run
+ * Installation 
+
+'''
+  pip install tensorlayer==1.8.0
+  conda install tensorflow-gpu==1.8.0
+  pip install easydict
+'''
+
+'''python
+  config.VALID.img_path='your_image_folder/'
+  config.TRAIN.img_path='your_image-folder/'
+  config.VALID.logdir='your_tensorboard_folder/'
+'''
+
+ * Start Training
+  python main.py
+
+ * Start Testing
+  python main.py --mode=evaluate
+
+ * Log Watching
+  tensorboard --logdir=log
+
+
+
