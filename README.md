@@ -1,8 +1,8 @@
 # Multi-frame-image-super-resolution
 ### Introduction of code file
-*augmentation.py       # data augmentation
-*defshuffle.py         # shuffle images or image patches
-*config.py             # configuration hyperparameter
+*augmentation.py ---data augmentation
+*defshuffle.py   ---shuffle images or image patches
+*config.py       ---configuration hyperparameter
 
 ### Run
 * Installation
