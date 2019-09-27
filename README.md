@@ -22,3 +22,7 @@
  Reference
  SRGAN_Wasserstein https://github.com/JustinhoCHN/SRGAN_Wasserstein
  
+PS：
+if some parts of this project, please cite this paper "W. Li, Y. He, W. Kong, F. Gao, J. Wang, and G. Shi, "Enhancement of Retinal Image From Line-Scanning Ophthalmoscope Using Generative Adversarial Networks," IEEE Access 7, 99830–99841 (2019)."
+
+ 
